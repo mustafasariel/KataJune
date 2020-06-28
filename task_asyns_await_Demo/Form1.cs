@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
+using System.Net.Http;
 
 namespace task_asyns_await_Demo
 {
@@ -28,7 +29,14 @@ namespace task_asyns_await_Demo
         private async void btnReadAsync_Click(object sender, EventArgs e)
         {
 
-            richTextBox1.Text =await GetReadAsync();
+            Task<string> okuma = GetReadAsync();
+
+            Task<string> hurriyet = GetUrl("https://www.hurriyet.com");
+
+            richTextBox1.Text = await okuma;
+
+            richTextBox2.Text = await hurriyet;
+           
         }
         string GetRead()
         {
@@ -36,7 +44,7 @@ namespace task_asyns_await_Demo
             {
                 var s = streamReader.ReadToEnd();
                 Thread.Sleep(5000);
-               // Task.Delay(5000);
+                // Task.Delay(5000);
                 return s;
             }
         }
@@ -46,12 +54,17 @@ namespace task_asyns_await_Demo
             txtCounter.Text = counter++.ToString();
         }
 
+        async Task<string> GetUrl(string url)
+        {
+            await Task.Delay(12000);
+            return await new HttpClient().GetStringAsync("https://www.google.com");
+        }
         async Task<string> GetReadAsync()
         {
             using (StreamReader streamReader = new StreamReader("readme.txt"))
             {
                 Task<string> mytask = streamReader.ReadToEndAsync();
-               
+
                 for (int i = 0; i < 100; i++)
                 {
                     listBox1.Items.Insert(0, i);
@@ -63,6 +76,6 @@ namespace task_asyns_await_Demo
             }
         }
 
-        
+
     }
 }

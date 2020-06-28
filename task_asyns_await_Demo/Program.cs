@@ -16,7 +16,8 @@ namespace task_asyns_await_Demo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form2());
+           // Application.Run(new Form3());
         }
     }
 }

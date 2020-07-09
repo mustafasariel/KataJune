@@ -60,7 +60,7 @@
             this.listBox2.FormattingEnabled = true;
             this.listBox2.Location = new System.Drawing.Point(139, 42);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(120, 368);
+            this.listBox2.Size = new System.Drawing.Size(141, 368);
             this.listBox2.TabIndex = 3;
             // 
             // button2
@@ -76,23 +76,23 @@
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(265, 42);
+            this.listBox3.Location = new System.Drawing.Point(286, 42);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(120, 368);
+            this.listBox3.Size = new System.Drawing.Size(137, 368);
             this.listBox3.TabIndex = 4;
             // 
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(391, 42);
+            this.listBox4.Location = new System.Drawing.Point(429, 42);
             this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(128, 368);
+            this.listBox4.Size = new System.Drawing.Size(144, 368);
             this.listBox4.TabIndex = 5;
             // 
             // listBox5
             // 
             this.listBox5.FormattingEnabled = true;
-            this.listBox5.Location = new System.Drawing.Point(525, 47);
+            this.listBox5.Location = new System.Drawing.Point(579, 42);
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(181, 368);
             this.listBox5.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 427);
+            this.ClientSize = new System.Drawing.Size(838, 476);
             this.Controls.Add(this.listBox5);
             this.Controls.Add(this.listBox4);
             this.Controls.Add(this.listBox3);

@@ -32,11 +32,11 @@ namespace task_asyns_await_Demo
 
         private async void button2_Click(object sender, EventArgs e)
         {
-             FillList2(1); // "Birinci işlem");  //5 sn
+             FillList2(100); // "Birinci işlem");  //5 sn
 
-             FillList3(1);// "ikinci işlem"); //10 sn
+             FillList3(200);// "ikinci işlem"); //10 sn
 
-            FillList4(1); //, "üçüncü işlem");  //20 sn
+            FillList4(300); //, "üçüncü işlem");  //20 sn
         }
 
         void MetotOlcumu(Action action, string name)

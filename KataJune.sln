@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThumnailDemo", "ThumnailDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cancelationToken2Demos", "cancelationToken2Demos\cancelationToken2Demos.csproj", "{08BC1C95-6E2D-4981-B38C-0E72C33394F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBytePackage", "DemoBytePackage\DemoBytePackage.csproj", "{8881E6AE-EF96-44C1-A529-2AE7B2E2F392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{08BC1C95-6E2D-4981-B38C-0E72C33394F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08BC1C95-6E2D-4981-B38C-0E72C33394F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08BC1C95-6E2D-4981-B38C-0E72C33394F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8881E6AE-EF96-44C1-A529-2AE7B2E2F392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8881E6AE-EF96-44C1-A529-2AE7B2E2F392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8881E6AE-EF96-44C1-A529-2AE7B2E2F392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8881E6AE-EF96-44C1-A529-2AE7B2E2F392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
